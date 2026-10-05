@@ -1,0 +1,27 @@
+# Служебные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Архивы VFS (нельзя коммитить по правилу Г1)
+*.zip
+
+# Файлы настроек редактора
+.vscode/
+.idea/
+
+# Логи и временные файлы
+*.log
+.env
