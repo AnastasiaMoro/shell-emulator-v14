@@ -1,7 +1,7 @@
 .PHONY: run test
 
 run:
-	python3 src/main.py
+	/opt/homebrew/bin/python3.11 src/main.py
 
 test:
-	python3 -m unittest discover tests
+	/opt/homebrew/bin/python3.11 -m unittest discover tests
