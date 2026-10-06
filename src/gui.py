@@ -1,8 +1,11 @@
 """Графический интерфейс эмулятора оболочки."""
 import os
 import socket
+import sys
 import tkinter as tk
 from tkinter import scrolledtext
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from parser import parse_command
 from commands import execute_command
